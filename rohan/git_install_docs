@@ -1,0 +1,24 @@
+https://jsosic.wordpress.com/2014/05/23/git-over-http-on-centos-6/ : Git over HTTP on CentOS 6
+
+
+https://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.html  : Git over HTTP on debian 
+ 
+
+http://www.jedi.be/blog/2009/05/06/8-ways-to-share-your-git-repository/ :  8 ways to share your git repository
+
+
+http://www.tecmint.com/install-git-to-create-and-share-your-own-projects-on-github-repository/ : git with github 
+
+
+https://www.youtube.com/watch?v=N3saR9D7hq8 or https://www.youtube.com/watch?v=qZa5JXmsWZs : aws codedeploy
+
+https://www.youtube.com/watch?v=CxKbAxV0Hno : aws codecommit
+
+Command on centos 6 : 
+
+
+       git init
+       git add rohan
+       git commit -m "second commit" 
+       git remote add origin https://Rkstar2016@github.com/Rkstar2016/ME.git
+       git push -u origin master
