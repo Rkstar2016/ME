@@ -1,0 +1,24 @@
+<VirtualHost 192.168.189.128>
+ServerName 192.168.189.128
+DocumentRoot /usr/local/git
+
+
+<Location /git>
+DAV on 
+AuthType Basic
+AuthName "Git"
+AuthUserFile /etc/httpd/passwd.git
+Require valid-user 
+Allow from all 
+</Location>  
+
+
+<Directory "/usr/local/git">
+Options Indexes FollowSymLinks MultiViews
+AllowOverride None
+Order allow,deny
+allow from all
+
+</Directory>
+
+</virtualHost>

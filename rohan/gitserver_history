@@ -1,0 +1,171 @@
+    1  ip r l 
+    2  ping google.com
+    3  ip r l 
+    4  ping google.com
+    5  poweroff 
+    6  ip r l
+    7  ping google.com
+    8  ip r l
+    9  vim /etc/ssh/sshd_config 
+   10  /etc/init.d/sshd restart
+   11  ping google.com
+   12  vim /etc/hosts
+   13  setup
+   14  ip r l 
+   15  poweroff 
+   16  w
+   17  yum install git 
+   18  ping google.com
+   19  yum install git 
+   20  yum list 
+   21  service network restart
+   22  ip r l 
+   23  yum list 
+   24  yum install git name 
+   25  git config --user global.anem rohan
+   26  git config --global user.name  rohan
+   27  git config --global user.mail   rohan.khanolkar@justdial.com
+   28  cd /usr/local/
+   29  ls -lrth
+   30  mkdir git 
+   31  cd git/
+   32  ls -lrth
+   33  git init JDTREE
+   34  ls -lrth
+   35  ls -a
+   36  cd JDTREE/
+   37  ls
+   38  touch  abc 
+   39  vim abc
+   40  yun install httpd 
+   41  get remo
+   42  yun install git*
+   43  yun install git-*
+   44  yum install git-*
+   45  git remote -v
+   46  cd /usr/local/
+   47  ls
+   48  cd g
+   49  cd git/
+   50  ls
+   51  cd JDTREE/
+   52  git remote -v
+   53  cd /etc/httpd/conf.d/
+   54  ls
+   55  vin git.conf 
+   56  vim git.conf 
+   57  /etc/init.d/httpd restart
+   58  vim git.conf 
+   59  /etc/init.d/httpd restart
+   60  lls -lrth
+   61  ls -lrth
+   62  vim git.conf 
+   63  /etc/init.d/httpd restart
+   64  vim git.conf 
+   65  /etc/init.d/httpd restart
+   66  ip r l 
+   67  cd /usr/local/sv
+   68  cd /usr/local/git/
+   69  ls
+   70  cd JDTREE/
+   71  ls
+   72  yum install httpd 
+   73  vim /etc/httpd/conf/httpd.conf 
+   74  cd /etc/httpd/conf
+   75  cd ..
+   76  cd conf.d/
+   77  ls
+   78  vim git.conf
+   79  httpd -t 
+   80  /etc/init.d/httpd restart
+   81  ip r l 
+   82  touch /etc/httpd/passwd.git 
+   83  htpasswd -c /etc/httpd/passwd.git git
+   84  ls -lrth
+   85  cd /usr/local/
+   86  ls -lrth
+   87  chown apache.apache git -R 
+   88  service network restart
+   89  service httpd  restart
+   90  cd /etc/httpd/conf.d/
+   91  ls -lrth
+   92  vim git.conf 
+   93  service httpd  restart
+   94  vim git.conf 
+   95  service httpd  restart
+   96  ls -lrth
+   97  vim git.conf 
+   98  service httpd  restart
+   99  cd /usr/local/git/
+  100  ls -lrth
+  101  cd JDTREE/
+  102  ls
+  103  git add abc 
+  104  git commit -m "changes" abc 
+  105  iptables -L
+  106  iptables -F
+  107  /etc/init.d/iptables stop
+  108  iptables -L
+  109  chkconfig iptables off 
+  110  vim /etc/sysconfig/selinux 
+  111  reboot 
+  112  sestatus 
+  113  /etc/init.d/iptables status 
+  114  /etc/init.d/httpd restart
+  115  git update-server-info  
+  116  cd /usr/local/
+  117  ls
+  118  cd git/
+  119  ls
+  120  git update-server-info  
+  121  ls -a
+  122  cd ..
+  123  ls -a
+  124  cd git/
+  125  ls
+  126  cd JDTREE/
+  127  ls
+  128  ls -a
+  129  git update-server-info  
+  130  vim .git/
+  131  cd .git/
+  132  ls
+  133  vim config 
+  134  file:///usr/share/doc/HTML/index.html
+  135  git config -l 
+  136  git update-server-info  
+  137  yum install git-*
+  138  git update-server-info  
+  139  ls
+  140  vim config 
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd ..
+  145  ls -lrth
+  146  git commit -m "2" 
+  147  cd JDTREE/
+  148  git commit -m "2" 
+  149  git commit -m "3" 
+  150  ls -lrth
+  151  git add 1 
+  152  git add abc
+  153  git commit -m "3" 
+  154  ls -a
+  155  ls -lrth
+  156  ls -a
+  157  git update-server-info  
+  158  vim .git/config 
+  159  ip r l
+  160  useradd rohan
+  161  passwd rohan
+  162  git update-server-info  
+  163  cd /usr/local/git/
+  164  git update-server-info  
+  165  cd JDTREE/
+  166  git update-server-info  
+  167  yum install git-*
+  168  history 
+  169  history > /home/rohan/git_history 
+  170  cat /home/rohan/git_history 
+  171  history > /home/rohan/gitserver_history 
